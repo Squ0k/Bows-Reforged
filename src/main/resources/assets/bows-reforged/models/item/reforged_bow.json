@@ -1,0 +1,774 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "bows-reforged:item/reforged_bows/attribute_grey",
+    "layer1": "bows-reforged:item/reforged_bows/albino_bow",
+    "layer2": "bows-reforged:item/reforged_bows/no_scope"
+  },
+  "overrides": [
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_nm_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_nm_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_nm_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.0, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_nm_ex_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_st_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_st_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_st_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.1, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_st_ex_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ir_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ir_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ir_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.2, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ir_ex_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_go_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_go_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_go_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.3, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_go_ex_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_di_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_di_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_di_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.4, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_di_ex_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_na"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_na"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_na_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.0, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_na_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_ar"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_ar"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_ar_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.1, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_ar_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_el"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_el"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_el_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.2, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_el_s"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_ex"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 0.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_ex"
+    },
+    {
+      "predicate": { "pulling": 0.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_b_ne_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.0, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p0_ne_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.65, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p1_ne_ex_s"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.9, "bows-reforged:material": 0.5, "bows-reforged:attribute": 0.3, "bows-reforged:has_scope": 1.0 },
+      "model": "bows-reforged:item/reforged_bows/rb_p2_ne_ex_s"
+    }
+  ]
+}

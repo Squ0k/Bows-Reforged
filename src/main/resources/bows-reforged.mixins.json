@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.dnii.bows_reforged.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DenyAnvilEnchantingMixin",
+    "FletchingTableBlockMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

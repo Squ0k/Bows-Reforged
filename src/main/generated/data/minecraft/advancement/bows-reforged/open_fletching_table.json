@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "opened_fletching_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fletching_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "Use a fletching table",
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fletching_table"
+    },
+    "title": "Bows Reforged!"
+  },
+  "requirements": [
+    [
+      "opened_fletching_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

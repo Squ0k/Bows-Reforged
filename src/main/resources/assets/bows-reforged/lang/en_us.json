@@ -1,0 +1,18 @@
+{
+  "item.bows-reforged.arcane_fiber": "Arcane Fiber",
+  "item.bows-reforged.electric_fiber": "Electric Fiber",
+  "item.bows-reforged.explosive_fiber": "Explosive Fiber",
+  "item.bows-reforged.reforged_bow": "Reforged Bow",
+  "item.bows-reforged.material": "Material",
+  "item.bows-reforged.material.info": "Material: %1$s",
+  "item.bows-reforged.attribute": "Attribute",
+  "item.bows-reforged.attribute.info": "Attribute: %1$s",
+  "item.bows-reforged.has_scope": "Has Scope",
+  "item.bows-reforged.has_scope.info": "Has scope",
+  "item.bows-reforged.dmg_bonus": "Damage Bonus",
+  "item.bows-reforged.dmg_bonus.info": "base damage +%1$s",
+  "item.bows-reforged.draw_time": "Draw Time",
+  "item.bows-reforged.draw_time.info": "draw time %1$s frames",
+  "item.bows-reforged.ammo": "Ammo",
+  "item.bows-reforged.ammo.info": "%1$s arrows left"
+}

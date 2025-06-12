@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "bows-reforged",
+	"version": "1.21.1",
+	"name": "Bows Reforged",
+	"description": "This mod adds some vanilla-themed variants to bows, alongside giving a unique use to fletching tables.",
+	"authors": [
+		"Doorknob II"
+	],
+	"contact": {
+		"homepage": "https://github.com/Squ0k/Bows-Reforged/",
+		"sources": "https://github.com/Squ0k/Bows-Reforged/wiki"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bows-reforged/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dnii.bows_reforged.BowsReforged"
+		],
+		"client": [
+			"com.dnii.bows_reforged.BowsReforgedClient"
+		],
+		"fabric-datagen": [
+			"com.dnii.bows_reforged.datagen.BrDataGenerator"
+		]
+	},
+	"mixins": [
+		"bows-reforged.mixins.json",
+		{
+			"config": "bows-reforged.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
