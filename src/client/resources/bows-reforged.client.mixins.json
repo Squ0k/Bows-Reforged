@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.dnii.bows_reforged.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "ChangeFOV"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

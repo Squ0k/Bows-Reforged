@@ -1,0 +1,8 @@
+{
+	"parent": "item/bow",
+	"textures": {
+		"layer0": "bows-reforged:item/reforged_bows/attribute_sky",
+		"layer1": "bows-reforged:item/reforged_bows/stone_bow",
+		"layer2": "bows-reforged:item/reforged_bows/has_scope"
+	}
+}
