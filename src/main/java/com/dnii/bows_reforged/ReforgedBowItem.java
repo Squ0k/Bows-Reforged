@@ -51,12 +51,12 @@ public class ReforgedBowItem extends BowItem {
 
         if (stack.getOrDefault(BowComponents.AMMO, 0) > 0 || creative) {
             // Inject phantom arrow to allow vanilla draw animation
-            ItemStack record = user.getInventory().getStack(0);
-            user.getInventory().setStack(0, new ItemStack(Items.ARROW, 1));
+            ItemStack record = user.getInventory().getStack(9);
+            user.getInventory().setStack(9, new ItemStack(Items.ARROW, 1));
 
             TypedActionResult<ItemStack> result = super.use(world, user, hand);
 
-            user.getInventory().setStack(0, record);
+            user.getInventory().setStack(9, record);
             return result;
         }
         return TypedActionResult.fail(stack);
